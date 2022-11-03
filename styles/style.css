@@ -1,16 +1,6 @@
 body, html{
     margin: 0%;
-}
-header{
-    padding-top: 10px;
-    padding-bottom: 30px; 
-    background-color: lightgray;
-}
-header,h1{
-    font-family: sans-serif ;
-    font-size: 300%;
-    color: black;
-    text-align: center;
+    padding-top: 0px;
 }
 nav {
     min-height: 400px;
@@ -18,33 +8,31 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-right: 10%;
-}
-nav img{
-    width: 100%;
-    height: 400px;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 a {
     float: right;
     padding-top: 4%;
-    color: white;
-    display: inline-block;
+    color: lightgrey;
     font-family: sans-serif ;
     text-align: center;
     font-size: 200%;
     text-decoration: none;
     margin-right: 2%;
+    width: 15%;
   }
 a:hover{
-    color:lightgrey;
+    color:white;
+    border-bottom: solid 1px white;
   }
-p{
-    padding-left: 20%;
-  }
-#nach_links-kollege{
+#nach_links_kollege{
     float: left;
-    width: 10px;
+    width: 10%;
     height: auto;
+}
+#nach_links_kollege:hover{
+    border: 0px;
 }
 article {
     padding-top: 50px;
@@ -52,6 +40,7 @@ article {
     padding-right: 15%;
     padding-bottom: 50px;
     background-color: bisque;
+    min-height: 22rem;
  }
 article h2{
     padding-left: 5%;
@@ -65,7 +54,7 @@ article img{
 article a{
     text-align: left;
     font-size: 100%;
-    padding-top. 0px,
+    padding-top: 0px;
     color: black;
     display: inline-block;
     font-family: sans-serif ;
@@ -76,7 +65,7 @@ article ul{
     font-size: 150%;
     padding-left: 15%;
     width: 30%;
-    padding-bottom: 40%;
+    padding-bottom: 3rem;
 }
 article table{
     padding-left:15%;
@@ -84,15 +73,25 @@ article table{
     font-size: 150%;
     text-align: left;
     font-style: thin;
+    }
+article table a{
+    text-align: left;
+    float: none;
+    width: 100%;
+}
+article table a:hover{
+    border: 0px;
+}
+p{
+    font-family: sans-serif;
 }
 footer{
-    border-top: solid 3px black;
-    border-bottom: solid 3px black;
-    background-color: grey;
+    background-color: #eaeaea;
+    padding-top: 2rem;
 }
 footer p{
     padding-left: 0%;
     text-align: center;
     font-family: sans-serif ;
-    color: lightgrey;
+    color: black;
 }
